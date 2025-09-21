@@ -13,7 +13,7 @@ app.post("/call", async (req, res) => {
 
   try {
     const response = await axios.post(
-      "https://b67c79e3-cfb6-4f4e-be53-5eac63e01189-00-1by1jcno4osr2.sisko.replit.dev/make-outbound-call",
+      "https://846d739f-e259-423f-a066-81f151abfdf4-00-2gbkytvxh22k4.sisko.replit.dev/make-outbound-call",
       { to },
       { headers: { "Content-Type": "application/json" } }
     );
