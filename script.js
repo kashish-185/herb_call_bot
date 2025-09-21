@@ -4,7 +4,7 @@ const errorMsg = document.getElementById("errorMsg");
 const callLog = document.getElementById("callLog");
 
 // Point frontend → backend
-const API_ENDPOINT = "http://localhost:3000/call";
+const API_ENDPOINT = "https://callbot-server.onrender.com/call";
 
 function logMessage(msg) {
   const timestamp = new Date().toLocaleTimeString();
