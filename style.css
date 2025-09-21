@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #eaffea, #ffffff);
+  color: #0a3d0a;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(135deg, #81c784, #66bb6a);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: -40px auto 20px;
+  padding: 25px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+select, input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #a5d6a7;
+  font-size: 1rem;
+  flex: 1;
+}
+
+input {
+  flex: 2;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background: linear-gradient(135deg, #66bb6a, #388e3c);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.features {
+  max-width: 900px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.feature {
+  background: #f4fff4;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #c8e6c9;
+  transition: transform 0.2s;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.feature h3 {
+  margin: 10px 0;
+  color: #2e7d32;
+}
+
+.log-box {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #ffffff;
+  border: 1px solid #a5d6a7;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.log-box h3 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+
+#callLog {
+  max-height: 180px;
+  overflow-y: auto;
+  font-size: 0.9rem;
+  color: #1b5e20;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #e8f5e9;
+  color: #1b5e20;
+}
